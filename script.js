@@ -81,7 +81,7 @@ let promedio = (prom1 + prom2 + prom3) / 3;
 
 // EJERCICIO 3: Calcular edad en días
 function calcularEdadDias() {
-    const anos = parseFloat(document.getElementById('anos').value);
+    let anos = parseFloat(document.getElementById('anos').value);
     
     if (!esNumeroValido(anos) || anos < 0) {
         mostrarResultado('resultado-edad', 'Por favor, ingresa una edad válida (número positivo).', false);
