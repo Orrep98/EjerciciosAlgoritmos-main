@@ -126,7 +126,7 @@ function calcularPrecioConImpuesto() {
         return;
     }
     
-    let impuesto = 0.19; // 19%
+    const impuesto = 0.19; // 19%
     let valorImpuesto = 0;//usa esta constante para el resultado
     let precioFinal = 0;//usa esta constante para el resultado
 
